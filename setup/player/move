@@ -3,19 +3,22 @@
 FILENAME=Main
 
 # Java
-# java FILENAME "$@"
+# java $FILENAME "$@"
 
 # Scala
-# scala FILENAME "$@"
+# scala $FILENAME "$@"
 
 # C#
-# mono FILENAME.exe "$@"
+# mono $FILENAME.exe "$@"
 
 # Ruby
-# ruby FILENAME.ruby "$@"
+# ruby $FILENAME.ruby "$@"
 
 # Python
-# python FILENAME.py "$@"
+# python $FILENAME.py "$@"
 
 # Javascript
-# node FILENAME.js "$@"
+# node $FILENAME.js "$@"
+
+# Haskell
+# ./$FILENAME "$@"
