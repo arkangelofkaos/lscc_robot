@@ -1,10 +1,3 @@
-# PLAYER is the name for your chosen player
-# IP is the ip of the server given to you at the start of the session
-
-# NodeJS: node frankie/Main.java
-# C#: mcs PLAYER/Main.cs
-
-
 PLAYERNAME=player
 IP=0.0.0.0
 FILENAME=Main
