@@ -11,5 +11,5 @@ FILENAME=Main
 # C#
 # gmcs PLAYERNAME/FILNENAME.cs
 
-zip -r PLAYERNAME.zip ./PLAYERNAME
-curl http://IP:3000/players --data-binary @PLAYERNAME.zip
+zip -r $PLAYERNAME.zip ./$PLAYERNAME
+curl http://$IP:3000/players --data-binary @$PLAYERNAME.zip
