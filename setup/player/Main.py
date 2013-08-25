@@ -1,3 +1,3 @@
 import sys
 
-print 'Argument List:', str(sys.argv)
+print ('Argument List:', str(sys.argv))
