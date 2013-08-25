@@ -1,0 +1,21 @@
+#!/bin/sh
+
+FILENAME=Main
+
+# Java
+# java FILENAME "$@"
+
+# Scala
+# scala FILENAME "$@"
+
+# C#
+# mono FILENAME.exe "$@"
+
+# Ruby
+# ruby FILENAME.ruby "$@"
+
+# Python
+# python FILENAME.py "$@"
+
+# Javascript
+# node FILENAME.js "$@"
