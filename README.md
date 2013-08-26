@@ -18,7 +18,9 @@ required command line tools: __curl__ & __zip__
 
    ___optional___:  If using __Java__, __Scala__ or __C#__ uncomment the appropriate lines
 
-4. Edit the __move__ file inside your player folder: uncomment the appropriate line for your language
+4. Edit the __move__ file inside your player folder: 
+ - make it executable eg: ```chmod +x move```
+ - uncomment the appropriate line for your language
 
 That's it, now go and write some codes! You can use the __Main__ file with your language extension inside your player folder.
 
