@@ -22,7 +22,9 @@ required command line tools: __curl__ & __zip__
  - make it executable eg: ```chmod +x move```
  - uncomment the appropriate line for your language
 
-That's it, now go and write some codes! You can use the __Main__ file with your language extension inside your player folder.
+That's it, now go and write some codes! You can use the __Main__ file with your language extension inside your player folder. 
+
+When you want to deploy your code to the server, just run ```./release.sh``` at the root of the repo.
 
 
 __P.s.__ _These files are meant to get you started quickly. Feel free to edit them or have a completely different deploy process. The _
