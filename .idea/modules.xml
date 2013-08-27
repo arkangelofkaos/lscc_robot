@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/robot_tournament_setup.iml" filepath="$PROJECT_DIR$/robot_tournament_setup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/lscc-robot.iml" filepath="$PROJECT_DIR$/src/lscc-robot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tictactoe/src/main/tictactoe.iml" filepath="$PROJECT_DIR$/tictactoe/src/main/tictactoe.iml" />
     </modules>
   </component>
 </project>

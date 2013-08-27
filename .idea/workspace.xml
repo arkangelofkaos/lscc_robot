@@ -2,27 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefdb325-2543-454f-ae87-8603c769ca9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ed_and_sandro/CurrentPlayerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ed_and_sandro/RobotTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robot_tournament_setup.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/player/Main.scala" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/player/Main.cs" afterPath="$PROJECT_DIR$/ed_and_sandro/Main.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/player/Main.hs" afterPath="$PROJECT_DIR$/ed_and_sandro/Main.hs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/player/Main.java" afterPath="$PROJECT_DIR$/ed_and_sandro/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/player/Main.js" afterPath="$PROJECT_DIR$/ed_and_sandro/Main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/player/Main.py" afterPath="$PROJECT_DIR$/ed_and_sandro/Main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/player/Main.rb" afterPath="$PROJECT_DIR$/ed_and_sandro/Main.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/player/move" afterPath="$PROJECT_DIR$/ed_and_sandro/move" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release.sh" afterPath="$PROJECT_DIR$/release.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/BlockingCrossStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/BlockingNoughtStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/CornerStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/player/CurrentPlayerCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/player/CurrentPlayerCalculatorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/FirstEmptyCellStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/MiddleStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/Strategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobotTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/WinCrossStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/WinNoughtStrategy.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/findbugs-idea.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.hs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/move" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/robot_tournament_setup.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CurrentPlayerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$BlockingCrossStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$BlockingNoughtStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$BlockingStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$CornerStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$CurrentPlayerCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$FirstEmptyCellStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$MiddleStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$Robot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$Strategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$WinCrossStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$WinNoughtStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RobotTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="robot_tournament_setup.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377632382191" ignored="false" />
+    <file path="/Dummy.txt" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646318217" ignored="false" />
     <file path="/release.sh" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377630925713" ignored="false" />
-    <file path="/Main.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377632188079" ignored="false" />
+    <file path="/Main.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377645734615" ignored="false" />
     <file path="/RobotTest.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377629201520" ignored="false" />
     <file path="/Robot.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377627666397" ignored="false" />
     <file path="/CurrentPlayerTest.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377629464379" ignored="false" />
+    <file path="/.gitignore" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377644431096" ignored="false" />
+    <file path="/README.md" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377644478158" ignored="false" />
+    <file path="/fragment.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646118076" ignored="false" />
+    <file path="/CurrentPlayerCalculator.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377645392373" ignored="false" />
+    <file path="/CurrentPlayerCalculatorTest.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377645537140" ignored="false" />
+    <file path="/Strategy.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377645603448" ignored="false" />
+    <file path="/TicTacToeRobot.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646225761" ignored="false" />
+    <file path="/TicTacToeRobotTest.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646284871" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +82,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -73,7 +119,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -82,77 +127,39 @@
     <favorites_list name="robot_tournament_setup" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider editor-type-id="MarkdownPreviewEditor">
-                <state />
-              </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="23" selection-start="331" selection-end="331" vertical-scroll-proportion="-6.740741">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RobotTest.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ed_and_sandro/RobotTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="53" selection-start="967" selection-end="967" vertical-scroll-proportion="0.6797386">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CurrentPlayerTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ed_and_sandro/CurrentPlayerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="20" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="release.sh" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/release.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="69" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="move" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ed_and_sandro/move">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="0" selection-start="33" selection-end="53" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ed_and_sandro/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="79" selection-start="133" selection-end="133" vertical-scroll-proportion="0.09348915">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="TicTacToeRobot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToeRobotTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="39" selection-start="1030" selection-end="1030" vertical-scroll-proportion="1.0404313">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentPlayerCalculatorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/player/CurrentPlayerCalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="5" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -163,6 +170,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -170,12 +178,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ed_and_sandro/move" />
-        <option value="$PROJECT_DIR$/ed_and_sandro/Robot.java" />
-        <option value="$PROJECT_DIR$/ed_and_sandro/CurrentPlayerTest.java" />
-        <option value="$PROJECT_DIR$/release.sh" />
-        <option value="$PROJECT_DIR$/ed_and_sandro/RobotTest.java" />
-        <option value="$PROJECT_DIR$/ed_and_sandro/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/player/CurrentPlayerCalculator.java" />
+        <option value="$PROJECT_DIR$/tictactoe/test/main/java/CurrentPlayerTest.java" />
+        <option value="$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/player/CurrentPlayerCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/FirstEmptyCellStrategy.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/BlockingNoughtStrategy.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/WinNoughtStrategy.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/BlockingCrossStrategy.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/WinCrossStrategy.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/MiddleStrategy.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/CornerStrategy.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/Main.java" />
+        <option value="$PROJECT_DIR$/tictactoe/test/main/java/RobotTest.java" />
+        <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobot.java" />
+        <option value="$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobotTest.java" />
       </list>
     </option>
   </component>
@@ -183,20 +201,20 @@
     <option name="x" value="10" />
     <option name="y" value="22" />
     <option name="width" value="1260" />
-    <option name="height" value="760" />
+    <option name="height" value="714" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -211,112 +229,198 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="robot_tournament_setup" />
+              <option name="myItemId" value="lscc-robot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="robot_tournament_setup" />
+              <option name="myItemId" value="lscc-robot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="robot_tournament_setup" />
+              <option name="myItemId" value="tictactoe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tictactoe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="robot_tournament_setup" />
+              <option name="myItemId" value="lscc-robot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="robot_tournament_setup" />
+              <option name="myItemId" value="tictactoe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ed_and_sandro" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tictactoe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lscc-robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tictactoe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lscc-robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tictactoe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tictactoe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lscc-robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tictactoe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tictactoe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tictactoe" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.RobotTest">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="arkangelofkaos.tictactoe.robot" />
+      <recent name="arkangelofkaos.tictactoe.player" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.arkangelofkaos.tictactoe in main">
+    <configuration default="false" name="arkangelofkaos.tictactoe in main" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="main" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="robot_tournament_setup" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RobotTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="robot_tournament_setup" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RobotTest" />
+      <option name="PACKAGE_NAME" value="arkangelofkaos.tictactoe" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CurrentPlayerTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="robot_tournament_setup" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CurrentPlayerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -422,16 +526,12 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RobotTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CurrentPlayerTest" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.arkangelofkaos.tictactoe in main" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RobotTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CurrentPlayerTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.arkangelofkaos.tictactoe in main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -440,6 +540,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fefdb325-2543-454f-ae87-8603c769ca9c" name="Default" comment="" />
@@ -449,37 +566,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1260" height="760" extended-state="0" />
-    <editor active="true" />
+    <frame x="10" y="22" width="1260" height="714" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="110" y="122" width="1060" height="560" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32828283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TestDox" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958813" sideWeight="0.6703125" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.67171717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="110" y="122" width="1060" height="560" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TestDox" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -547,56 +664,109 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ed_and_sandro/Main.cs">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="29" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="63" selection-start="30" selection-end="30" vertical-scroll-proportion="0.16172507">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/player/CurrentPlayerCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="162" selection-end="162" vertical-scroll-proportion="0.28301886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="51" selection-end="51" vertical-scroll-proportion="0.08086254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/FirstEmptyCellStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ed_and_sandro/move">
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/BlockingNoughtStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="33" selection-end="53" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ed_and_sandro/CurrentPlayerTest.java">
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/WinNoughtStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/tictactoe.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/BlockingCrossStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/WinCrossStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/MiddleStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/CornerStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="151" selection-end="151" vertical-scroll-proportion="0.20215634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/player/CurrentPlayerCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/release.sh">
+    <entry file="file://$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="69" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="331" selection-end="331" vertical-scroll-proportion="-6.740741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ed_and_sandro/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="79" selection-start="133" selection-end="133" vertical-scroll-proportion="0.09348915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ed_and_sandro/RobotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="53" selection-start="967" selection-end="967" vertical-scroll-proportion="0.6797386">
+        <state line="40" column="39" selection-start="1030" selection-end="1030" vertical-scroll-proportion="1.0404313">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -644,7 +814,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -656,11 +826,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>robot_tournament_setup</last-edited>
+          <last-edited>tictactoe</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
