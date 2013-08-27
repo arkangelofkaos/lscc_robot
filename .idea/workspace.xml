@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefdb325-2543-454f-ae87-8603c769ca9c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/CurrentPlayerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/RobotTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="robot_tournament_setup.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646816140" ignored="false" />
+    <file path="/Dummy.txt" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646927114" ignored="false" />
     <file path="/release.sh" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377630925713" ignored="false" />
     <file path="/Main.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377645734615" ignored="false" />
     <file path="/RobotTest.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377629201520" ignored="false" />
@@ -415,7 +410,11 @@
       <created>1377646818316</created>
       <updated>1377646818316</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="more cleanup">
+      <created>1377646929105</created>
+      <updated>1377646929105</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -494,7 +493,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored and cleaned up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="more cleanup" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -514,6 +513,7 @@
     <MESSAGE value="removing old code" />
     <MESSAGE value="removing workspace file" />
     <MESSAGE value="refactored and cleaned up code" />
+    <MESSAGE value="more cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
