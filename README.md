@@ -27,4 +27,4 @@ That's it, now go and write some codes! You can use the __Main__ file with your 
 When you want to deploy your code to the server, just run ```./release.sh``` at the root of the repo.
 
 
-__P.s.__ _These files are meant to get you started quickly. Feel free to edit them or have a completely different deploy process. The _
+__P.s.__ __These files are meant to get you started quickly. Feel free to edit them or have a completely different deploy process.__
