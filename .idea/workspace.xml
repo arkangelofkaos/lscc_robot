@@ -14,22 +14,14 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobotTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/WinCrossStrategy.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/WinNoughtStrategy.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/CurrentPlayerTest.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/RobotTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="robot_tournament_setup.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646619625" ignored="false" />
+    <file path="/Dummy.txt" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646753598" ignored="false" />
     <file path="/release.sh" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377630925713" ignored="false" />
     <file path="/Main.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377645734615" ignored="false" />
     <file path="/RobotTest.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377629201520" ignored="false" />
@@ -115,7 +107,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+            <state line="1" column="2" selection-start="6" selection-end="6" vertical-scroll-proportion="0.04043127">
               <folding />
             </state>
           </provider>
@@ -421,7 +413,11 @@
       <created>1377646467577</created>
       <updated>1377646467577</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removing .idea files and updating ignore">
+      <created>1377646657779</created>
+      <updated>1377646657779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -500,7 +496,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing class files." />
+    <option name="LAST_COMMIT_MESSAGE" value="removing old code" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -516,6 +512,8 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="initial commit - cleanup" />
     <MESSAGE value="removing class files." />
+    <MESSAGE value="removing .idea files and updating ignore" />
+    <MESSAGE value="removing old code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -629,7 +627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+        <state line="1" column="2" selection-start="6" selection-end="6" vertical-scroll-proportion="0.04043127">
           <folding />
         </state>
       </provider>
