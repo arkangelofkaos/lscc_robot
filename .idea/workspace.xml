@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fefdb325-2543-454f-ae87-8603c769ca9c" name="Default" comment="">
+    <list default="true" id="fefdb325-2543-454f-ae87-8603c769ca9c" name="Default" comment="removing class files.">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/BlockingCrossStrategy.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/BlockingNoughtStrategy.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/CornerStrategy.java" />
@@ -16,51 +16,26 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/strategy/WinNoughtStrategy.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/findbugs-idea.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.hs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/Main.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ed_and_sandro/move" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/robot_tournament_setup.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/CurrentPlayerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$BlockingCrossStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$BlockingNoughtStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$BlockingStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$CornerStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$CurrentPlayerCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$FirstEmptyCellStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$MiddleStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$Robot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$Strategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$WinCrossStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main$WinNoughtStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/RobotTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="robot_tournament_setup.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646318217" ignored="false" />
+    <file path="/Dummy.txt" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646619625" ignored="false" />
     <file path="/release.sh" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377630925713" ignored="false" />
     <file path="/Main.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377645734615" ignored="false" />
     <file path="/RobotTest.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377629201520" ignored="false" />
     <file path="/Robot.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377627666397" ignored="false" />
     <file path="/CurrentPlayerTest.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377629464379" ignored="false" />
-    <file path="/.gitignore" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377644431096" ignored="false" />
+    <file path="/.gitignore" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646582704" ignored="false" />
     <file path="/README.md" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377644478158" ignored="false" />
     <file path="/fragment.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377646118076" ignored="false" />
     <file path="/CurrentPlayerCalculator.java" changelist="fefdb325-2543-454f-ae87-8603c769ca9c" time="1377645392373" ignored="false" />
@@ -137,10 +112,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeRobotTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToeRobotTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="39" selection-start="1030" selection-end="1030" vertical-scroll-proportion="1.0404313">
+            <state line="40" column="39" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/player/CurrentPlayerCalculator.java" />
         <option value="$PROJECT_DIR$/tictactoe/test/main/java/CurrentPlayerTest.java" />
         <option value="$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/player/CurrentPlayerCalculatorTest.java" />
@@ -194,6 +177,7 @@
         <option value="$PROJECT_DIR$/tictactoe/test/main/java/RobotTest.java" />
         <option value="$PROJECT_DIR$/tictactoe/src/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobot.java" />
         <option value="$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobotTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -236,140 +220,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="lscc-robot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lscc-robot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tictactoe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tictactoe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lscc-robot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tictactoe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tictactoe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lscc-robot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tictactoe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lscc-robot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tictactoe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tictactoe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lscc-robot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tictactoe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tictactoe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -563,13 +413,22 @@
       <created>1377625639777</created>
       <updated>1377625639777</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit - cleanup">
+      <created>1377646427843</created>
+      <updated>1377646427843</updated>
+    </task>
+    <task id="LOCAL-00002" summary="removing class files.">
+      <created>1377646467577</created>
+      <updated>1377646467577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1260" height="714" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32828283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32828283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -582,7 +441,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.67171717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.67171717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="110" y="122" width="1060" height="560" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -603,9 +462,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -641,11 +500,11 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing class files." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
     <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
     <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
@@ -655,6 +514,8 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="initial commit - cleanup" />
+    <MESSAGE value="removing class files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -667,13 +528,6 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="29" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="63" selection-start="30" selection-end="30" vertical-scroll-proportion="0.16172507">
           <folding />
         </state>
       </provider>
@@ -766,10 +620,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tictactoe/test/main/java/arkangelofkaos/tictactoe/robot/TicTacToeRobotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="39" selection-start="1030" selection-end="1030" vertical-scroll-proportion="1.0404313">
+        <state line="40" column="39" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
