@@ -8,6 +8,7 @@ import java.util.Arrays;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
+import static org.junit.runners.Parameterized.Parameters;
 
 /**
  * @author Edward Yue Shung Wong
@@ -20,7 +21,7 @@ public class TicTacToeRobotTest {
     private final String board;
     private final int cellToBeMarked;
 
-    @Parameterized.Parameters
+    @Parameters
     public static Iterable<Object[]> boards() {
         return Arrays.asList(new Object[][]{
                 {"---------", 0},
