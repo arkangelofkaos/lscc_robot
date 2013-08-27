@@ -3,7 +3,7 @@
 FILENAME=Main
 
 # Java
-# java $FILENAME "$@"
+java $FILENAME "$@"
 
 # Scala
 # scala $FILENAME "$@"
