@@ -12,6 +12,10 @@ public enum Symbol {
         this.symbol = symbol;
     }
 
+    public String getSymbol() {
+        return symbol;
+    }
+
     @Override
     public String toString() {
         return symbol;
