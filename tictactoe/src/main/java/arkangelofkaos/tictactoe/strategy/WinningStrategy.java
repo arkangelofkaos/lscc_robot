@@ -14,14 +14,14 @@ public class WinningStrategy implements Strategy {
 
     public int nextCell(String board) {
         int blockingCellIndex = board.indexOf("" + playerSymbol + Symbol.BLANK + playerSymbol);
-        if (blockingCellIndex != -1) {
+        if (blockingCellIndex != ERROR_CODE) {
             return blockingCellIndex + 1;
         }
         blockingCellIndex = board.indexOf("" + playerSymbol + playerSymbol + Symbol.BLANK);
-        if (blockingCellIndex != -1) {
+        if (blockingCellIndex != ERROR_CODE) {
             return blockingCellIndex + 2;
         }
-        return -1;
+        return ERROR_CODE;
     }
 
     @Override

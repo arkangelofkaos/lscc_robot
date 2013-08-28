@@ -9,18 +9,19 @@ import java.util.List;
 
 import static arkangelofkaos.tictactoe.board.BoardParser.parseBoardIntoLines;
 import static arkangelofkaos.tictactoe.player.CurrentPlayerCalculator.currentPlayer;
+import static arkangelofkaos.tictactoe.strategy.Strategy.ERROR_CODE;
 
 /**
  * @author Edward Yue Shung Wong
  */
 public class TicTacToeRobot {
 
-    private static final List<WinningStrategy> naughtStrategies = Arrays.asList(
+    private static final List<Strategy> naughtStrategies = Arrays.<Strategy>asList(
             new WinningStrategy(Symbol.NOUGHT),
             new WinningStrategy(Symbol.CROSS)
     );
 
-    private static final List<WinningStrategy> crossStrategies = Arrays.asList(
+    private static final List<Strategy> crossStrategies = Arrays.<Strategy>asList(
             new WinningStrategy(Symbol.CROSS),
             new WinningStrategy(Symbol.NOUGHT)
     );
@@ -32,7 +33,7 @@ public class TicTacToeRobot {
     );
 
     public int nextMoveFor(String board) {
-        List<WinningStrategy> strategies =
+        List<Strategy> strategies =
                 currentPlayer(board).equals("0")
                         ? naughtStrategies
                         : crossStrategies;
@@ -42,11 +43,11 @@ public class TicTacToeRobot {
         Integer winningOrBlockingMove =
                 strategies.parallelStream()
                         .map(strategy -> strategy.nextCell(lines))
-                        .filter(move -> move != -1)
+                        .filter(move -> move != ERROR_CODE)
                         .findFirst()
-                        .orElse(-1);
+                        .orElse(ERROR_CODE);
 
-        return winningOrBlockingMove != -1
+        return winningOrBlockingMove != ERROR_CODE
                 ? winningOrBlockingMove
                 : standardNextMoveFor(board);
     }
@@ -54,9 +55,9 @@ public class TicTacToeRobot {
     private Integer standardNextMoveFor(String board) {
         return STANDARD_STRATEGIES.parallelStream()
                 .map(strategy -> strategy.nextCell(board))
-                .filter(move -> move != -1)
+                .filter(move -> move != ERROR_CODE)
                 .findFirst()
-                .orElse(-1);
+                .orElse(ERROR_CODE);
     }
 
 }

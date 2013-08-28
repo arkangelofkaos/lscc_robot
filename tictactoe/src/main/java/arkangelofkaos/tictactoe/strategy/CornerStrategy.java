@@ -13,6 +13,6 @@ public class CornerStrategy implements Strategy {
             }
         }
 
-        return -1;
+        return ERROR_CODE;
     }
 }
