@@ -1,5 +1,6 @@
 package arkangelofkaos.tictactoe.board.line;
 
+import arkangelofkaos.tictactoe.board.symbol.Symbol;
 import arkangelofkaos.tictactoe.board.symbol.TicTacToeSymbol;
 
 import java.util.List;
@@ -69,5 +70,30 @@ public class Line {
     @Override
     public String toString() {
         return "Line{" + ticTacToeSymbol1 + ticTacToeSymbol2 + ticTacToeSymbol3 + '}';
+    }
+
+    public int winningIndex(Symbol playerSymbol) {
+        Symbol ticTacToeSymbol1Symbol = ticTacToeSymbol1.getSymbol();
+        Symbol ticTacToeSymbol2Symbol = ticTacToeSymbol2.getSymbol();
+        Symbol ticTacToeSymbol3Symbol = ticTacToeSymbol3.getSymbol();
+
+        if (ticTacToeSymbol1Symbol == ticTacToeSymbol2Symbol && ticTacToeSymbol2Symbol == ticTacToeSymbol3Symbol) {
+            return -1;
+        }
+
+        if (playerSymbol == ticTacToeSymbol1Symbol) {
+            if (ticTacToeSymbol1Symbol == ticTacToeSymbol2Symbol) {
+                return ticTacToeSymbol3.getIndex();
+            }
+            if (ticTacToeSymbol1Symbol == ticTacToeSymbol3Symbol) {
+                return ticTacToeSymbol2.getIndex();
+            }
+        }
+
+        if (ticTacToeSymbol2Symbol == ticTacToeSymbol3Symbol && playerSymbol == ticTacToeSymbol2Symbol) {
+            return ticTacToeSymbol1.getIndex();
+        }
+
+        return -1;
     }
 }

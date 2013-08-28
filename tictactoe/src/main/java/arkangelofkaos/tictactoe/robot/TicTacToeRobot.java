@@ -1,5 +1,6 @@
 package arkangelofkaos.tictactoe.robot;
 
+import arkangelofkaos.tictactoe.board.symbol.Symbol;
 import arkangelofkaos.tictactoe.strategy.*;
 
 import static arkangelofkaos.tictactoe.player.CurrentPlayerCalculator.currentPlayer;
@@ -10,16 +11,16 @@ import static arkangelofkaos.tictactoe.player.CurrentPlayerCalculator.currentPla
 public class TicTacToeRobot {
 
     static Strategy[] naughtStrategies = new Strategy[]{
-            new WinNoughtStrategy(),
-            new BlockingCrossStrategy(),
+            new WinningStrategy(Symbol.NOUGHT),
+            new WinningStrategy(Symbol.CROSS),
             new CornerStrategy(),
             new MiddleStrategy(),
             new FirstEmptyCellStrategy()
     };
 
     static Strategy[] crossStrategies = new Strategy[]{
-            new WinCrossStrategy(),
-            new BlockingNoughtStrategy(),
+            new WinningStrategy(Symbol.CROSS),
+            new WinningStrategy(Symbol.NOUGHT),
             new CornerStrategy(),
             new MiddleStrategy(),
             new FirstEmptyCellStrategy()
