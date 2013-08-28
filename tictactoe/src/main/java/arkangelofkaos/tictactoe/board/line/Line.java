@@ -5,6 +5,8 @@ import arkangelofkaos.tictactoe.board.symbol.TicTacToeSymbol;
 
 import java.util.List;
 
+import static arkangelofkaos.tictactoe.board.symbol.Symbol.BLANK;
+
 /**
  * @author Edward Yue Shung Wong
  */
@@ -21,7 +23,6 @@ public class Line {
     public Line(List<TicTacToeSymbol> ticTacToeSymbols) {
         this(ticTacToeSymbols.get(0), ticTacToeSymbols.get(1), ticTacToeSymbols.get(2));
     }
-
 
     public TicTacToeSymbol getTicTacToeSymbol1() {
         return ticTacToeSymbol1;
@@ -82,15 +83,17 @@ public class Line {
         }
 
         if (playerSymbol == ticTacToeSymbol1Symbol) {
-            if (ticTacToeSymbol1Symbol == ticTacToeSymbol2Symbol) {
+            if (ticTacToeSymbol1Symbol == ticTacToeSymbol2Symbol && ticTacToeSymbol3Symbol == BLANK) {
                 return ticTacToeSymbol3.getIndex();
             }
-            if (ticTacToeSymbol1Symbol == ticTacToeSymbol3Symbol) {
+            if (ticTacToeSymbol1Symbol == ticTacToeSymbol3Symbol && ticTacToeSymbol2Symbol == BLANK) {
                 return ticTacToeSymbol2.getIndex();
             }
         }
 
-        if (ticTacToeSymbol2Symbol == ticTacToeSymbol3Symbol && playerSymbol == ticTacToeSymbol2Symbol) {
+        if (playerSymbol == ticTacToeSymbol2Symbol
+                && ticTacToeSymbol2Symbol == ticTacToeSymbol3Symbol
+                && ticTacToeSymbol1Symbol == BLANK) {
             return ticTacToeSymbol1.getIndex();
         }
 
