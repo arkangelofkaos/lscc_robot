@@ -6,6 +6,8 @@ import arkangelofkaos.tictactoe.strategy.*;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.IntPredicate;
+import java.util.function.ToIntFunction;
 
 import static arkangelofkaos.tictactoe.board.BoardParser.parseBoardIntoLines;
 import static arkangelofkaos.tictactoe.player.CurrentPlayerCalculator.currentPlayer;
@@ -16,7 +18,7 @@ import static arkangelofkaos.tictactoe.strategy.Strategy.ERROR_CODE;
  */
 public class TicTacToeRobot {
 
-    private static final List<Strategy> naughtStrategies = Arrays.<Strategy>asList(
+    private static final List<Strategy> noughtStrategies = Arrays.<Strategy>asList(
             new WinningStrategy(Symbol.NOUGHT),
             new WinningStrategy(Symbol.CROSS)
     );
@@ -34,30 +36,48 @@ public class TicTacToeRobot {
 
     public int nextMoveFor(String board) {
         List<Strategy> strategies =
-                currentPlayer(board).equals("0")
-                        ? naughtStrategies
+                noughtIsCurrentPlayer(board)
+                        ? noughtStrategies
                         : crossStrategies;
 
-        List<Line> lines = parseBoardIntoLines(board);
-
-        Integer winningOrBlockingMove =
-                strategies.parallelStream()
-                        .map(strategy -> strategy.nextCell(lines))
-                        .filter(move -> move != ERROR_CODE)
-                        .findFirst()
-                        .orElse(ERROR_CODE);
+        Integer winningOrBlockingMove = winningOrBlockingMoveFor(strategies, board);
 
         return winningOrBlockingMove != ERROR_CODE
                 ? winningOrBlockingMove
                 : standardNextMoveFor(board);
     }
 
-    private Integer standardNextMoveFor(String board) {
-        return STANDARD_STRATEGIES.parallelStream()
-                .map(strategy -> strategy.nextCell(board))
-                .filter(move -> move != ERROR_CODE)
+    private Integer winningOrBlockingMoveFor(List<Strategy> playerStrategies, String board) {
+        List<Line> lines = parseBoardIntoLines(board);
+        return playerStrategies.parallelStream()
+                .map(strategiesToMoves(lines))
+                .filter(badMoves())
                 .findFirst()
                 .orElse(ERROR_CODE);
+    }
+
+    private Integer standardNextMoveFor(String board) {
+        return STANDARD_STRATEGIES.parallelStream()
+                .map(strategiesToMoves(board))
+                .filter(badMoves())
+                .findFirst()
+                .orElse(ERROR_CODE);
+    }
+
+    private boolean noughtIsCurrentPlayer(String board) {
+        return Symbol.NOUGHT.getSymbol().equals(currentPlayer(board));
+    }
+
+    private ToIntFunction<? super Strategy> strategiesToMoves(List<Line> lines) {
+        return strategy -> strategy.nextCell(lines);
+    }
+
+    private ToIntFunction<? super Strategy> strategiesToMoves(String board) {
+        return strategy -> strategy.nextCell(board);
+    }
+
+    private IntPredicate badMoves() {
+        return move -> move != ERROR_CODE;
     }
 
 }
