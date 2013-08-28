@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.function.ToIntFunction;
 
-import static arkangelofkaos.tictactoe.board.symbol.Symbol.*;
+import static arkangelofkaos.tictactoe.board.symbol.Symbol.BLANK;
+import static arkangelofkaos.tictactoe.board.symbol.Symbol.CROSS;
+import static arkangelofkaos.tictactoe.board.symbol.Symbol.NOUGHT;
 
 public final class CurrentPlayerCalculator {
 
@@ -36,7 +38,7 @@ public final class CurrentPlayerCalculator {
                                                              String blankSymbol, String crossSymbol) {
         return boardSymbols.parallelStream()
                 .filter(blanks(blankSymbol))
-                .map(symbolsToTurnValues(crossSymbol))
+                .mapToInt(symbolsToTurnValues(crossSymbol))
                 .sum();
     }
 

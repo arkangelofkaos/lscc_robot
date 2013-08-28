@@ -2,7 +2,11 @@ package arkangelofkaos.tictactoe.robot;
 
 import arkangelofkaos.tictactoe.board.line.Line;
 import arkangelofkaos.tictactoe.board.symbol.Symbol;
-import arkangelofkaos.tictactoe.strategy.*;
+import arkangelofkaos.tictactoe.strategy.CornerStrategy;
+import arkangelofkaos.tictactoe.strategy.FirstEmptyCellStrategy;
+import arkangelofkaos.tictactoe.strategy.MiddleStrategy;
+import arkangelofkaos.tictactoe.strategy.Strategy;
+import arkangelofkaos.tictactoe.strategy.WinningStrategy;
 
 import java.util.Arrays;
 import java.util.List;
@@ -50,7 +54,7 @@ public class TicTacToeRobot {
     private Integer winningOrBlockingMoveFor(List<Strategy> playerStrategies, String board) {
         List<Line> lines = parseBoardIntoLines(board);
         return playerStrategies.parallelStream()
-                .map(strategiesToMoves(lines))
+                .mapToInt(strategiesToMoves(lines))
                 .filter(badMoves())
                 .findFirst()
                 .orElse(ERROR_CODE);
@@ -58,10 +62,10 @@ public class TicTacToeRobot {
 
     private Integer standardNextMoveFor(String board) {
         return STANDARD_STRATEGIES.parallelStream()
-                .map(strategiesToMoves(board))
+                .mapToInt(strategiesToMoves(board))
                 .filter(badMoves())
                 .findFirst()
-                .orElse(ERROR_CODE);
+                .getAsInt();
     }
 
     private boolean noughtIsCurrentPlayer(String board) {

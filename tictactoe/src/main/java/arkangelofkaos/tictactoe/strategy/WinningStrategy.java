@@ -27,8 +27,8 @@ public class WinningStrategy implements Strategy {
     @Override
     public int nextCell(List<Line> lines) {
         return lines.parallelStream()
-                .map(line -> line.winningIndex(playerSymbol))
+                .mapToInt(line -> line.winningIndex(playerSymbol))
                 .max()
-                .orElse(-1);
+                .getAsInt();
     }
 }

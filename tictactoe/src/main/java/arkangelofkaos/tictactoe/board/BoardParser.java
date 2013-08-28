@@ -27,13 +27,13 @@ public class BoardParser {
         return Arrays.stream(allLineIndexes)
                 .map(lineIndexesToTicTacToeSymbols(board))
                 .map(Line::new)
-                .collect(Collectors.toList());
+                .collect(Collectors.<Line>toList());
     }
 
     private static Function<? super int[], ? extends List<TicTacToeSymbol>> lineIndexesToTicTacToeSymbols(String board) {
         return lineIndexes ->
                 Arrays.stream(lineIndexes)
-                        .map(indexToSymbolOn(board))
+                        .mapToObj(indexToSymbolOn(board))
                         .collect(Collectors.<TicTacToeSymbol>toList());
     }
 
